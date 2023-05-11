@@ -1,0 +1,15 @@
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.csv
+*.pem
+plan
+ec2/.terraform.lock.hcl
+keyaws
+awskey
+.terraform.lock.hcl
+.terraform.lock.hcl
+plan.out
