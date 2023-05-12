@@ -1,3 +1,7 @@
 resource "aws_s3_bucket" "my-bucket" {
-  bucket = "my-bucket-joaopablo101"
+  bucket = "my-bucket-remote-state"
+
+  versioning {
+    enabled = true
+  }
 }

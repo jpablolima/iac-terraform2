@@ -8,6 +8,12 @@ terraform {
     }
   }
 
+  backend "s3" {
+    bucket = "my-bucket-remote-state"
+    key = "path/to/my/key"
+    region = "us-east-1"    
+  }
+
 }
 
 provider "aws" {

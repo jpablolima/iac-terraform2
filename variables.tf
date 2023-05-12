@@ -3,3 +3,4 @@ variable region {
   default     = "us-east-1"
   description = "Região onde os recursos vão ser criados"
 }
+
