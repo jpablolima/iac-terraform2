@@ -13,3 +13,5 @@ awskey
 .terraform.lock.hcl
 .terraform.lock.hcl
 plan.out
+*aws-key.pub
+*aws-key
