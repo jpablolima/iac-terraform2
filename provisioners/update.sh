@@ -1,5 +1,8 @@
 #!/bin/bash
 
 
-sudo apt update && sudo apt upgrade -y
+sudo apt-get update -y 
+sudo apt install apache2 -y 
+sudo service apache2 status >> status.txt
+date >> date.txt
 

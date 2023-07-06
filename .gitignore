@@ -16,3 +16,6 @@ plan.out
 *aws-key.pub
 *aws-key
 *public_ip.txt
+*output.txt
+*date.txt
+.fleet/*

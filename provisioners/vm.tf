@@ -14,6 +14,7 @@ resource "aws_instance" "vm" {
 
   provisioner "local-exec" {
     command = "echo ${self.public_ip} >> public_ip.txt"
+    
   }
 
   provisioner "file" {
